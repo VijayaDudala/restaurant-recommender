@@ -26,3 +26,4 @@ def run():
             print("Error:", e)
 
     print("✅ Data loaded successfully!")
+    run()
