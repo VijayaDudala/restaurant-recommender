@@ -24,9 +24,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-u26x2=y^eu8rzsp3_o=hbci1kl8xzusjuzzrc$paly30v4hw#z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "restaurant-recommender-api-laof.onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
 
 
 # Application definition
