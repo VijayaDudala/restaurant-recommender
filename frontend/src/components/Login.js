@@ -24,7 +24,7 @@ function Login() {
 
           alert("Login successful");
 
-          navigate("/home");
+          window.location.href = "/home";
         } else {
           alert("Invalid username or password");
         }
